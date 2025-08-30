@@ -112,6 +112,7 @@ from hospitals_in_india
 group by state
 order by Total_hospitals desc;
 
+
 -- Correlation between Density and Rating
 SELECT State,
        ROUND(AVG(Density),2) AS Avg_Density,
